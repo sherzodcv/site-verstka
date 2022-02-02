@@ -30,6 +30,7 @@ import Ins4 from '../feedbackIns/message.png';
 import Foot1 from '../images/location.png';
 import Foot2 from '../images/phone.png';
 import Foot3 from '../images/letter.png';
+import Carousel from "./Carousel";
 
 class HomePage extends Component {
     render() {
@@ -208,7 +209,7 @@ class HomePage extends Component {
                             <div className="col-md-12 p-0 m-0 carouselSection">
                                 <img className="float-left" src={Left} alt=""/>
                                 <img className="float-right" src={Right} alt=""/>
-                            {/*    here in carousel*/}
+                                <Carousel/>
                             </div>
                         </div>
                         <div className="row fifthBodyRow">
